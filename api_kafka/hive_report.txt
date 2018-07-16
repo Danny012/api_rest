@@ -1,0 +1,12 @@
+1、向kafka主题kafka_topic0709写入消息成功，消息为：
+ 	向kafka写入第  1  条消息 
+  	向kafka写入第  2  条消息 
+  	向kafka写入第  3  条消息 
+  	向kafka写入第  4  条消息 
+ 
+2、消费kafka主题kafka_topic0709中消息成功，消息为：
+ 	向kafka写入第  1  条消息 
+  	向kafka写入第  2  条消息 
+  	向kafka写入第  3  条消息 
+  	向kafka写入第  4  条消息 
+ 
