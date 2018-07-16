@@ -1,0 +1,6 @@
+1、创建hive库：test0407 成功
+2、在test0407 库下创建：test0407表 成功
+3、将/mapred/hive.txt 数据加载到test0407.test0407 表中，成功
+4、统计test0407.test0407 表中数据成功,表中数据量为：3
+5、查询数据库成功，数据库有： aa  default  test0407  test2602  test2741  test4534  test5036  test5401  test5906 
+6、查询数据库：test0407下表成功，表有： test0407 

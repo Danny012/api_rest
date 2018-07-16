@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resource"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_151"/>
+	<classpathentry kind="lib" path="lib/apacheds-kerberos-codec-2.0.0-M15.jar"/>
+	<classpathentry kind="lib" path="lib/commons-configuration-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-auth-2.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-common-2.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/hive-jdbc-1.2.1000.2.5.0.0-1245-standalone.jar"/>
+	<classpathentry kind="lib" path="lib/xercesImpl-2.9.1.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.34.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
