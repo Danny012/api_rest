@@ -1,0 +1,13 @@
+2018-07-13 11:21:50  [ main:1355 ] - [ ERROR ]  java.lang.ArrayIndexOutOfBoundsException: 53
+	at com.inspur.util.create_service.spliteService(create_service.java:39)
+	at com.inspur.restApi.restApi.main(restApi.java:45)
+
+ 2018-07-13 11:22:29  [ main:915 ] - [ ERROR ]  java.lang.ArrayIndexOutOfBoundsException: 53
+	at com.inspur.util.create_service.spliteService(create_service.java:39)
+	at com.inspur.restApi.restApi.main(restApi.java:45)
+
+ 2018-07-13 11:29:06  [ main:897 ] - [ ERROR ]  java.lang.ArrayIndexOutOfBoundsException: 53
+	at com.inspur.util.create_service.spliteService(create_service.java:39)
+	at com.inspur.restApi.restApi.main(restApi.java:43)
+
+ 
