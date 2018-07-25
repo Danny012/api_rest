@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<servlet>
+	<servlet-name>apiContrallor</servlet-name>
+	<servlet-class>inspur.api.apiContrallor</servlet-class>
+</servlet>
+ 
+<servlet-mappping>
+	<servlet-name>apiContrallor</servlet-name>
+	<url-pattern>/servlet/PostBarServlet</url-pattern>
+</servlet-mappping>

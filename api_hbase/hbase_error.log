@@ -1,0 +1,93 @@
+2018-07-16 14:36:55  [ main:1608572 ] - [ ERROR ]  org.apache.hadoop.hbase.client.RetriesExhaustedException: Failed after attempts=35, exceptions:
+Mon Jul 16 14:28:03 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:28:03 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: org.apache.hadoop.hbase.ipc.FailedServerException: This server is in the failed servers list: indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:28:04 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: org.apache.hadoop.hbase.ipc.FailedServerException: This server is in the failed servers list: indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:28:04 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: org.apache.hadoop.hbase.ipc.FailedServerException: This server is in the failed servers list: indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:28:05 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:28:07 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:28:11 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:28:21 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:28:31 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:28:42 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:28:52 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:29:12 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:29:32 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:29:52 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:30:12 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:30:32 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:30:52 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:31:13 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:31:33 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:31:53 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:32:13 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:32:33 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:32:53 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:33:13 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:33:33 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:33:53 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:34:13 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:34:34 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:34:54 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:35:14 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:35:34 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:35:54 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:36:14 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:36:35 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+Mon Jul 16 14:36:55 CST 2018, RpcRetryingCaller{globalStartTime=1531722483713, pause=100, retries=35}, org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+
+	at org.apache.hadoop.hbase.client.RpcRetryingCaller.callWithRetries(RpcRetryingCaller.java:147)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.executeCallable(HBaseAdmin.java:4403)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.listNamespaceDescriptors(HBaseAdmin.java:3119)
+	at com.inspur.hbase.test.test_Api.main(test_Api.java:71)
+Caused by: org.apache.hadoop.hbase.MasterNotRunningException: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation$StubMaker.makeStub(ConnectionManager.java:1544)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation$MasterServiceStubMaker.makeStub(ConnectionManager.java:1564)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.getKeepAliveMasterService(ConnectionManager.java:1715)
+	at org.apache.hadoop.hbase.client.MasterCallable.prepare(MasterCallable.java:38)
+	at org.apache.hadoop.hbase.client.RpcRetryingCaller.callWithRetries(RpcRetryingCaller.java:124)
+	... 3 more
+Caused by: com.google.protobuf.ServiceException: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callBlockingMethod(AbstractRpcClient.java:223)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$BlockingRpcChannelImplementation.callBlockingMethod(AbstractRpcClient.java:287)
+	at org.apache.hadoop.hbase.protobuf.generated.MasterProtos$MasterService$BlockingStub.isMasterRunning(MasterProtos.java:62739)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation$MasterServiceStubMaker.isMasterRunning(ConnectionManager.java:1575)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation$StubMaker.makeStubNoRetries(ConnectionManager.java:1513)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation$StubMaker.makeStub(ConnectionManager.java:1535)
+	... 7 more
+Caused by: java.io.IOException: Could not set up IO Streams to indata-10-110-13-164.indata.com/10.110.13.164:16000
+	at org.apache.hadoop.hbase.ipc.RpcClientImpl$Connection.setupIOstreams(RpcClientImpl.java:779)
+	at org.apache.hadoop.hbase.ipc.RpcClientImpl$Connection.writeRequest(RpcClientImpl.java:887)
+	at org.apache.hadoop.hbase.ipc.RpcClientImpl$Connection.tracedWriteRequest(RpcClientImpl.java:856)
+	at org.apache.hadoop.hbase.ipc.RpcClientImpl.call(RpcClientImpl.java:1199)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callBlockingMethod(AbstractRpcClient.java:213)
+	... 12 more
+Caused by: java.lang.RuntimeException: SASL authentication failed. The most likely cause is missing or invalid credentials. Consider 'kinit'.
+	at org.apache.hadoop.hbase.ipc.RpcClientImpl$Connection$1.run(RpcClientImpl.java:679)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Unknown Source)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1866)
+	at org.apache.hadoop.hbase.ipc.RpcClientImpl$Connection.handleSaslConnectionFailure(RpcClientImpl.java:637)
+	at org.apache.hadoop.hbase.ipc.RpcClientImpl$Connection.setupIOstreams(RpcClientImpl.java:745)
+	... 16 more
+Caused by: javax.security.sasl.SaslException: GSS initiate failed [Caused by GSSException: No valid credentials provided (Mechanism level: Failed to find any Kerberos tgt)]
+	at com.sun.security.sasl.gsskerb.GssKrb5Client.evaluateChallenge(Unknown Source)
+	at org.apache.hadoop.hbase.security.HBaseSaslRpcClient.saslConnect(HBaseSaslRpcClient.java:179)
+	at org.apache.hadoop.hbase.ipc.RpcClientImpl$Connection.setupSaslConnection(RpcClientImpl.java:611)
+	at org.apache.hadoop.hbase.ipc.RpcClientImpl$Connection.access$600(RpcClientImpl.java:156)
+	at org.apache.hadoop.hbase.ipc.RpcClientImpl$Connection$2.run(RpcClientImpl.java:737)
+	at org.apache.hadoop.hbase.ipc.RpcClientImpl$Connection$2.run(RpcClientImpl.java:734)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Unknown Source)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1866)
+	at org.apache.hadoop.hbase.ipc.RpcClientImpl$Connection.setupIOstreams(RpcClientImpl.java:734)
+	... 16 more
+Caused by: GSSException: No valid credentials provided (Mechanism level: Failed to find any Kerberos tgt)
+	at sun.security.jgss.krb5.Krb5InitCredential.getInstance(Unknown Source)
+	at sun.security.jgss.krb5.Krb5MechFactory.getCredentialElement(Unknown Source)
+	at sun.security.jgss.krb5.Krb5MechFactory.getMechanismContext(Unknown Source)
+	at sun.security.jgss.GSSManagerImpl.getMechanismContext(Unknown Source)
+	at sun.security.jgss.GSSContextImpl.initSecContext(Unknown Source)
+	at sun.security.jgss.GSSContextImpl.initSecContext(Unknown Source)
+	... 26 more
+
+ 

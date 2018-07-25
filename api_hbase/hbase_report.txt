@@ -1,0 +1,14 @@
+1、数据库连接成功，连接为：hconnection-0x77be656f   /1634
+2、Hbase命名空间：test1634创建成功
+3、当前数据库中的命名空间有：
+default
+hbase
+test1634
+test3347
+test4324
+4、Hbase数据表：hbase_table1634创建成功
+5、向Hbase数据表：hbase_table1634插入数据  API自动化测试数据  成功
+6、Hbase数据表：hbase_table1634下的数据为  API自动化测试数据  
+7、命名空间 test1634:hbase_table1634 下数据  API自动化测试数据   删除成功
+8、test1634 命名空间下表： hbase_table1634 删除成功
+9、Hbase命名空间：test1634删除成功

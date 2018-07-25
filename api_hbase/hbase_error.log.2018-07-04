@@ -1,0 +1,12 @@
+2018-07-04 15:08:21  [ main:11472 ] - [ ERROR ]  java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:935)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:870)
+	at com.mysql.jdbc.PreparedStatement.checkBounds(PreparedStatement.java:3391)
+	at com.mysql.jdbc.PreparedStatement.setInternal(PreparedStatement.java:3376)
+	at com.mysql.jdbc.PreparedStatement.setString(PreparedStatement.java:4102)
+	at com.inspur.hbase.util.dao.save(dao.java:11)
+	at com.inspur.hbase.test.test_Api.main(test_Api.java:41)
+
+ 
