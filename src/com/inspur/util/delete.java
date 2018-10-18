@@ -19,7 +19,7 @@ public class delete {
 		 * ��ȡID
 		 */
 		restApi ra = new restApi();
-		String url = "http://10.110.13.163:9000/manage-cluster/service/indata/component/delete/instance";
+		String url = "http://10.110.13.124:9000/manage-cluster/service/indata/component/delete/instance";
 		JSONObject map = new JSONObject();
 		map.put("instanceId", id);
 		access_token token = new access_token();
@@ -34,7 +34,7 @@ public class delete {
 	}
 
 	public static String id() throws Exception {
-		File file = new File("Id.txt");
+		File file = new File("output/Id.txt");
 		if (file.isFile() && file.exists()) {
 			InputStreamReader isr = new InputStreamReader(new FileInputStream(file), "utf-8");
 			BufferedReader br = new BufferedReader(isr);

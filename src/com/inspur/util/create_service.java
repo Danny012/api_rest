@@ -18,7 +18,7 @@ public class create_service {
 	  //spliteService();
 }
   public static String createService() throws Exception {
-	 String url="http://10.110.13.163:9000/manage-cluster/service/indata/component/instance";	                           
+	 String url="http://10.110.13.124:9000/manage-cluster/service/indata/component/instance";	                           
 	 // System.out.println(url);
 	 JSONObject map = new JSONObject();
  	 map.put("planId", "component-plan-1");
@@ -29,13 +29,14 @@ public class create_service {
  	 map.put("masterUser", "tenant1234-master");
  	 apiTest rp=new apiTest();
  	 sumString =  rp.doPost(url, map.toString());
+// 	 System.out.println(sumString);
  	String[] strs=sumString.split("\"");
  	String subString=null;
  	 for(int i=0,len=strs.length;i<len;i++){
-	    	subString=strs[21].toString();	          
+	    	subString=strs[13].toString();	          
 	    }
  	  ra.ps.println(sumString);
-	// System.out.println(subString);
+//	 System.out.println(subString);
  	 return subString;
   }
   public static String  spliteService() throws FileNotFoundException {
@@ -43,13 +44,13 @@ public class create_service {
 	  String[] strs=sumString.split("\"");
 	    String subString = null;
 	    for(int i=0,len=strs.length;i<len;i++){
-	    	subString=strs[53].toString();	    
+	    	subString=strs[69].toString();	    
 	    }
-	    PrintStream ps = new PrintStream("Id.txt");
+	    PrintStream ps = new PrintStream("output/Id.txt");
 	    ps.println(subString);
 	    ps.close();
 	    ra.ps.println(subString);
-	    //System.out.println(subString);
+//	    System.out.println(subString);
 	 	 return subString;
 	  }
 }

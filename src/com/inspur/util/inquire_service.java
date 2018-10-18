@@ -13,7 +13,7 @@ public class inquire_service {
 	public static boolean getInstance() throws Exception {
 					
 		 restApi ra=new restApi();
-    	 String url="http://10.110.13.163:9000/manage-cluster/service/indata/component/catalog";
+    	 String url="http://10.110.13.124:9000/manage-cluster/service/indata/component/catalog";
     	 JSONObject param = new JSONObject();
     	 access_token    token=new access_token();     
     	 //delete d=new delete();

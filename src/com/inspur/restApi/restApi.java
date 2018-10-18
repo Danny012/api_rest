@@ -23,7 +23,7 @@ public class restApi {
 			int j = 0;
 			dao d = new dao();
 			try {
-				ps = new PrintStream("restApi_report.txt");				
+				ps = new PrintStream("output/restApi_report.txt");				
 				access_token at = new access_token();			
 				String token=at.spliteString().substring(0,5)+"..."+at.spliteString().substring(at.spliteString().length()-6, at.spliteString().length()-1);
 			    //System.out.println(token);
@@ -49,6 +49,7 @@ public class restApi {
 				ps.print(i+"、");
 				create_service crs = new create_service();
 				String user=crs.createService();
+//				System.out.println(user);
 				if (user!=null) {
 					crs.spliteService();	
 					String message=i + "、服务创建成功,用户名为： "+user;
